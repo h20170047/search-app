@@ -3,7 +3,7 @@ import './App.css';
 import SearchForm from "./components/searchform";
 import Counter from './components/counter';
 import Menu from './components/router';
-
+//
 class App extends Component {
   render() {
     return (
@@ -14,7 +14,7 @@ class App extends Component {
         {/* <SearchForm></SearchForm> */}
         {/* <Counter></Counter> */}
       </div>
-      // <div></div>
+      // <div></div> Changes for bug fix #1233
     );
   }
 }
